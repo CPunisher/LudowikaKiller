@@ -1,4 +1,4 @@
-package com.cpunisher.ludowikakiller;
+package com.cpunisher.ludowikakiller.pojo;
 
 public class Word {
 

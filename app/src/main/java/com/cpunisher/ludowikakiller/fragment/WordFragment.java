@@ -1,9 +1,8 @@
-package com.cpunisher.ludowikakiller;
+package com.cpunisher.ludowikakiller.fragment;
 
 import android.os.Bundle;
 import android.text.Editable;
 import android.text.TextWatcher;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -13,9 +12,10 @@ import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
+import com.cpunisher.ludowikakiller.R;
+import com.cpunisher.ludowikakiller.pojo.Word;
+import com.cpunisher.ludowikakiller.dao.WordDao;
 
-import java.util.ArrayList;
-import java.util.LinkedList;
 import java.util.List;
 import java.util.stream.Collectors;
 

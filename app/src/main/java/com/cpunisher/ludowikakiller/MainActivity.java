@@ -9,6 +9,9 @@ import android.view.MenuItem;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentPagerAdapter;
 import androidx.viewpager.widget.ViewPager;
+import com.cpunisher.ludowikakiller.fragment.TestFragment;
+import com.cpunisher.ludowikakiller.fragment.WordFragment;
+import com.cpunisher.ludowikakiller.util.Utils;
 import com.google.android.material.tabs.TabLayout;
 
 public class MainActivity extends AppCompatActivity {

@@ -1,4 +1,4 @@
-package com.cpunisher.ludowikakiller;
+package com.cpunisher.ludowikakiller.fragment;
 
 import android.os.Bundle;
 import android.text.Html;
@@ -9,6 +9,9 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
+import com.cpunisher.ludowikakiller.R;
+import com.cpunisher.ludowikakiller.util.Utils;
+import com.cpunisher.ludowikakiller.dao.SentenceDao;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.android.material.snackbar.Snackbar;
 
@@ -59,7 +62,7 @@ public class TestFragment extends Fragment {
                     tvSentence.setText(Html.fromHtml(s, Html.FROM_HTML_MODE_LEGACY));
                     tip = true;
                 } else {
-                    Snackbar.make(fabTip, "你已经点过提示啦", Snackbar.LENGTH_SHORT).show();
+                    Snackbar.make(fabTip, getString(R.string.tipped), Snackbar.LENGTH_SHORT).show();
                 }
             }
         });

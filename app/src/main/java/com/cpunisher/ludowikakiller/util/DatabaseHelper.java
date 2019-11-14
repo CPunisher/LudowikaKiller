@@ -1,8 +1,9 @@
-package com.cpunisher.ludowikakiller;
+package com.cpunisher.ludowikakiller.util;
 
 import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
+import com.cpunisher.ludowikakiller.References;
 
 public class DatabaseHelper extends SQLiteOpenHelper {
 

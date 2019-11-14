@@ -1,6 +1,8 @@
-package com.cpunisher.ludowikakiller;
+package com.cpunisher.ludowikakiller.util;
 
 import android.content.Context;
+import com.cpunisher.ludowikakiller.R;
+import com.cpunisher.ludowikakiller.References;
 
 import java.io.*;
 
